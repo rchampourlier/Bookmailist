@@ -1,0 +1,81 @@
+GIT
+  remote: git@github.com:rchampourlier/guard-shotgun.git
+  revision: 13833d7a6b2841deb971fb82188aa16eed04b7a7
+  branch: master
+  specs:
+    guard-shotgun (0.0.3)
+      ffi
+      guard
+      spoon
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activemodel (3.2.3)
+      activesupport (= 3.2.3)
+      builder (~> 3.0.0)
+    activesupport (3.2.3)
+      i18n (~> 0.6)
+      multi_json (~> 1.0)
+    bson (1.6.2)
+    bson_ext (1.6.2)
+      bson (~> 1.6.2)
+    builder (3.0.0)
+    daemons (1.1.8)
+    diff-lcs (1.1.3)
+    eventmachine (0.12.10)
+    ffi (1.0.11)
+    guard (1.0.1)
+      ffi (>= 0.5.0)
+      thor (~> 0.14.6)
+    haml (3.1.4)
+    i18n (0.6.0)
+    json (1.6.6)
+    mongo (1.6.2)
+      bson (~> 1.6.2)
+    mongoid (2.4.8)
+      activemodel (~> 3.1)
+      mongo (~> 1.3)
+      tzinfo (~> 0.3.22)
+    multi_json (1.3.2)
+    rack (1.4.1)
+    rack-protection (1.2.0)
+      rack
+    rack-test (0.6.1)
+      rack (>= 1.0)
+    rspec (2.9.0)
+      rspec-core (~> 2.9.0)
+      rspec-expectations (~> 2.9.0)
+      rspec-mocks (~> 2.9.0)
+    rspec-core (2.9.0)
+    rspec-expectations (2.9.1)
+      diff-lcs (~> 1.1.3)
+    rspec-mocks (2.9.0)
+    sinatra (1.3.2)
+      rack (~> 1.3, >= 1.3.6)
+      rack-protection (~> 1.2)
+      tilt (~> 1.3, >= 1.3.3)
+    spoon (0.0.1)
+    thin (1.3.1)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
+    thor (0.14.6)
+    tilt (1.3.3)
+    tzinfo (0.3.33)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activesupport
+  bson_ext
+  guard
+  guard-shotgun!
+  haml
+  json
+  mongoid
+  rack-test
+  rspec
+  sinatra
+  thin
