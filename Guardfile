@@ -4,9 +4,9 @@
   # watch(/^.+\.gemspec/)
 #end
 
-#guard 'shotgun' do
-#  watch(%r{^app/(.)*.rb})
-#end
+guard 'shotgun' do
+  watch(%r{^app/(.)*.rb})
+end
 
 guard 'rspec', :version => 2, :cli => "--color --format nested --require spec_helper" do
   watch(%r{^spec/(.+)_spec\.rb$})	{ |m| "spec/#{m[1]}_spec.rb" }
