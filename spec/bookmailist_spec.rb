@@ -1,9 +1,17 @@
 describe "bookmailist"  do
 	
+	describe "GET /" do
+
+		before(:each) do
+			get '/'
+		end
+
+	end
+
 	describe "POST incoming email" do
 
 		before(:each) do
-			payload = (File.read(File.join(File.dirname(__FILE__), '../fixtures/incoming_email.json')))
+			payload = (File.read(File.join(File.dirname(__FILE__), 'fixtures/incoming_email.json')))
 			post '/incoming_email', payload, {"CONTENT_TYPE" => "application/json"}
 		end
 

@@ -6,4 +6,5 @@
 
   %body
     
-    
+    - @bookmarks.each do |bookmark|
+      %a{:href => bookmark.url}= bookmark.title

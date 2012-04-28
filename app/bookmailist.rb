@@ -3,6 +3,7 @@ class Bookmailist < Sinatra::Base
   enable :logging, :dump_errors, :raise_errors
   
   get '/' do
+  	@bookmarks = Bookmark.all
     haml :home
   end
   
