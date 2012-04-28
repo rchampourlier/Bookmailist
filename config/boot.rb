@@ -5,11 +5,9 @@ require 'rubygems'
 require 'bundler/setup'
 Bundler.require
 
-# Load all initializers
-Dir[File.expand_path('./initializers/*.rb', __FILE__)].each { |file| require file }
-
-# Load all models
-Dir[File.expand_path('../models/*.rb', __FILE__)].each { |file| require file }
-
-# Load app core
-require_relative '../app/bookmailist'
+# Load all modules
+["initializers", "../lib", "../app", "../app/models"].each do |m|
+	Dir[File.expand_path("../#{m}/*.rb", __FILE__)].each do |file|
+		require file
+	end
+end

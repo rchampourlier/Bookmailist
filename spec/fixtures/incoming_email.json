@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "Return-Path": "admin@softr.li",
+    "Received": [
+      "by wibhr17 with SMTP id hr17so1934775wib.9 for <1cabb29a179e7e59df5b@cloudmailin.net>; Sun, 22 Apr 2012 10:28:46 -0700",
+      "by 10.180.78.40 with SMTP id y8mr14620903wiw.15.1335115725896; Sun, 22 Apr 2012 10:28:45 -0700",
+      "from [192.168.0.1] (mol92-8-88-166-7-75.fbx.proxad.net. [88.166.7.75]) by mx.google.com with ESMTPS id h8sm24984777wix.4.2012.04.22.10.28.43 (version=TLSv1/SSLv3 cipher=OTHER); Sun, 22 Apr 2012 10:28:44 -0700"
+    ],
+    "Date": "Sun, 22 Apr 2012 19:28:41 +0200",
+    "From": "\"softr.li (Romain)\" <admin@softr.li>",
+    "To": "1cabb29a179e7e59df5b@cloudmailin.net",
+    "Message-ID": "<23E133A1-AD07-4D3B-998C-0A8087BF5D35@softr.li>",
+    "References": "<27141F90-DABD-4703-A867-A32D53576EC7@rchampourlier.com>",
+    "Subject": "Fwd: Miso project: how it will help... (guardian.co.uk)",
+    "Mime-Version": "1.0",
+    "Content-Type": "multipart/alternative; boundary=\"Apple-Mail=_4DC648E3-7CCE-42FE-959D-2518EA9B81FD\"",
+    "X-Google-DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=20120113; h=from:content-type:subject:date:references:to:message-id :mime-version:x-mailer:x-gm-message-state; bh=WtBw3A7O8G3GCPBQT5eNhirpZCAhgNYFU2WDgfIHkXA=; b=OzXLb9kDXt+GWDj/QNud9TS13C8R+xajPV04ZPhZdPUbmwaFhYTkyTgxVSbjTeXpIb KrRm7+HjmpzGgQyuOiCqv7hctP2dfGE+gy15P9FgJZLJumkmXnzmKw6vZ5jHpKEaO7KD T2SEZf6P++bF2Sf7qeEr7iCm6dtxa5kiueeDAOxmjGfv/eSY7JLFudjMc9PsSM0n2nyH FfiFR1sGugMJKiJcTvUD1sVU9auIzdjiscqeBx/yZ6QdBcZbNy0XpcvyEdfc3FaeR57I LQ8oZ6huMbLEcdDfdbgKNp1KfcPFb/2aK688IAHiqAmZ/5mHmCnU8/Crr8bWA1DsohF6 PFJQ==",
+    "X-Mailer": "Apple Mail (2.1257)",
+    "X-Gm-Message-State": "ALoCoQlIcE9gGBl5tdBUmaklT4F3SW1UuCjtVdUDLYZKEN729BwqSxpPpq/rxtNaNj0ZYYrZAgUo"
+  },
+  "envelope": {
+    "to": "1cabb29a179e7e59df5b@cloudmailin.net",
+    "from": "admin@softr.li",
+    "helo_domain": "mail-wi0-f174.google.com",
+    "remote_ip": "209.85.212.174"
+  },
+  "plain": "content with a link as plain text http://www.alink_in_plain_text.com",
+  "html": "<html><head></head><body><a href='http://www.alink_in_html.com'>the link title</a></body></html>",
+  "attachments": [
+  ]
+}
